@@ -8,6 +8,7 @@
   [![React](https://img.shields.io/badge/React-19-blue)](https://reactjs.org/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
   [![PWA](https://img.shields.io/badge/PWA-Supported-ff69b4)](https://web.dev/progressive-web-apps/)
+  [![Astro](https://img.shields.io/badge/Astro-Landing%20Page-blueviolet)](https://astro.build/)
 
 </div>
 
@@ -150,6 +151,27 @@ AI_PROVIDER=gemini
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+## 🌐 Landing Page
+
+This repository also includes a beautiful landing page built with [Astro](https://astro.build/) located in the `landing/` directory. To run the landing page:
+
+1. Navigate to the landing directory:
+   ```bash
+   cd landing
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Visit `http://localhost:4321` to view the landing page
 
 ## 🆘 Support
 
