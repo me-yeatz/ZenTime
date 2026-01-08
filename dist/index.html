@@ -16,7 +16,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/zentime_icon.png">
     <link rel="icon" type="image/png" sizes="72x72" href="/zentime_icon.png">
     <link rel="apple-touch-icon" href="/zentime_icon.png">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="/assets/manifest-Dqgcsd9g.json">
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -97,6 +97,7 @@
             .retro-card { box-shadow: 2px 2px 0px var(--border-black); }
         }
     </style>
+
 <script type="importmap">
 {
   "imports": {
@@ -109,17 +110,17 @@
   }
 }
 </script>
+  <script type="module" crossorigin src="/assets/index-BEPy1_uM.js"></script>
 </head>
 <body>
     <div class="grid-bg"></div>
     <div id="root"></div>
-        <script>
-            if ('serviceWorker' in navigator) {
-                window.addEventListener('load', () => {
-                    navigator.serviceWorker.register('/sw.js').catch(err => console.log('SW registration failed:', err));
-                });
-            }
-        </script>
-<script type="module" src="/index.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js').catch(err => console.log('SW registration failed:', err));
+        });
+      }
+    </script>
 </body>
 </html>
